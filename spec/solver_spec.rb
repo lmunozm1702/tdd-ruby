@@ -21,4 +21,18 @@ describe Solver do
       expect(@solver.reverse('hello')).to eql('olleh')
     end
   end
+  describe '#fizzbuzz ' do
+    it 'returns "fizz" when the value is divisible by 3' do
+      expect(@solver.fizzbuzz(9)).to eql('fizz')
+    end
+    it 'returns "buzz" when the value is divisible by 5' do
+      expect(@solver.fizzbuzz(10)).to eql('buzz')
+    end
+    it 'returns "fizzbuzz" when the value is divisible by 3 and 5' do
+      expect(@solver.fizzbuzz(15)).to eql('fizzbuzz')
+    end
+    it 'returns the same value as string in any other case' do
+      expect(@solver.fizzbuzz(7)).to eql('7')
+    end
+  end
 end
