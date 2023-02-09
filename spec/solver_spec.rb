@@ -1,6 +1,3 @@
-# frozen_string_literal: true
-
-# rubocop:disable Metrics/BlockLength
 require 'rspec'
 require_relative '../solver'
 
@@ -33,4 +30,3 @@ describe Solver do
     expect(@solver.fizzbuzz(7)).to eql('7')
   end
 end
-# rubocop:enable Metrics/BlockLength
