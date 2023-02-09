@@ -16,4 +16,9 @@ describe Solver do
       expect{ @solver.factorial(-1) }.to raise_error(ArgumentError)
     end
   end
+  describe '#reverse' do
+    it 'returns "olleh" when the value is "hello"' do
+      expect(@solver.reverse('hello')).to eql('olleh')
+    end
+  end
 end
