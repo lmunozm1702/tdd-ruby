@@ -1,6 +1,6 @@
-# Class solver definition
 # frozen_string_literal: true
 
+# Class solver definition
 class Solver
   def factorial(number)
     raise ArgumentError, "Expected a value of 1-#{number}, got #{number}" if number.negative?
