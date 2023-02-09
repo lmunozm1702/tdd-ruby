@@ -10,7 +10,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 OOP School Library ](#-oop-school-library-)
+- [📖 TDD project with ruby ](#-tdd-ruby-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -95,7 +95,13 @@ Install thr project dependencies with:
 To run the project, execute the following command:
 
 ```
-  ruby main.rb
+  ruby solver.rb
+```
+
+To test the project, execute the following command:
+
+```
+  rspec spec/solver_spec.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
